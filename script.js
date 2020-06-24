@@ -96,7 +96,7 @@ door1.onclick = () => {
   if (currentlyPlaying && !isClicked(door1)) {
     door1.src = openDoor1;
     playDoor(door1);
-    playSound('https://clyp.it/onn1lazc');
+    playSound('./audio/open_door_1.wav');
   }
 };
 
@@ -104,7 +104,7 @@ door2.onclick = () => {
   if (currentlyPlaying && !isClicked(door2)) {
     door2.src = openDoor2;
     playDoor(door2);
-    playSound('https://clyp.it/onn1lazc');
+    playSound('./audio/open_door_1.wav');
   }
 };
 
@@ -112,7 +112,7 @@ door3.onclick = () => {
   if (currentlyPlaying && !isClicked(door3)) {
     door3.src = openDoor3;
     playDoor(door3);
-    playSound('https://clyp.it/onn1lazc');
+    playSound('./audio/open_door_1.wav');
   }
 };
 
