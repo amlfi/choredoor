@@ -1,0 +1,112 @@
+body {
+  background-color: #0F084B;
+  margin: 0px;
+  font-family: "Work Sans";
+  font-size: 16px;
+}
+
+.header {
+  background: hsla(165, 100%, 50%, 1);
+  background: linear-gradient(225deg, hsla(165, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  background: -moz-linear-gradient(225deg, hsla(165, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  background: -webkit-linear-gradient(225deg, hsla(165, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FFBF", endColorstr="#60efff", GradientType=1 );
+  text-align: center;
+}
+
+.header img {
+  padding: 0.75rem 0 0.5rem 0;
+}
+
+.first-row {
+  margin: 2rem 0 0.5rem 0;
+  text-align: center;
+}
+
+.instructions-title {
+  display: inline;
+  font-size: 18px;
+  color: #00ffff;
+}
+
+.second-row {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.instructions-number {
+  padding-right: 25px;
+  font-size: 1.5rem;
+  color: #00ffff;
+}
+
+.instructions-text {
+  padding: 0.5rem;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.door-row {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.door-frame {
+  cursor: pointer;
+  padding: 10px;
+  transition: transform .35s ease;
+}
+
+.door-frame:hover {
+  transform: scale(1.025);
+}
+
+.start-row {
+  margin: auto;
+  width: 14rem;
+  padding: 1rem;
+  font-size: 18px;
+  text-align: center;
+  color: #0F084B;
+  margin: 2rem auto;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  filter: drop-shadow(3px 3px 2px rgba(32, 32, 32, 0.203));
+  background: #F17300;
+  transition: transform .2s ease;
+}
+
+.start-row:hover {
+  background: #f8861b;
+  transform: scale(1.02);
+}
+
+.score-row {
+  text-align: center;
+  width: 100%;
+}
+
+.score-text {
+  margin-right: 17px;
+  padding: 5px;
+  display: inline;
+  font-size: 12px;
+  letter-spacing: 1.1px;
+  color: #ffffff;
+}
+
+.score-box {
+  margin-top: 9px;
+  display: inline-block;
+  padding: 8px;
+  margin: 18px;
+  margin-right: 29px;
+  width: 59px;
+  font-size: 45px;
+  background: hsla(165, 100%, 50%, 1);
+  background: linear-gradient(225deg, hsla(165, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  background: -moz-linear-gradient(225deg, hsla(165, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  background: -webkit-linear-gradient(225deg, hsla(165, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FFBF", endColorstr="#60efff", GradientType=1 );
+  text-align: center;
+}
