@@ -5,6 +5,12 @@ body {
   font-size: 16px;
 }
 
+@media (max-width: 425px) {
+  body {
+    font-size: 24px;
+  }
+}
+
 .header {
   background: hsla(165, 100%, 50%, 1);
   background: linear-gradient(225deg, hsla(165, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
